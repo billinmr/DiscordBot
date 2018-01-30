@@ -39,6 +39,12 @@ bot.on('message', function (user, userID, channelID, message, evt) {
                     message: 'Hello traveler!'
                 });
             break;
+            case 'help':
+                bot.sendMessage({
+                    to: channelID,
+                    message: 'How about go fuck yourself!'
+                });
+            break;
             // Just add any case commands if you want to..
 
          }
